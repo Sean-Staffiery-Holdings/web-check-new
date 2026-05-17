@@ -2735,11 +2735,6 @@
   resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-8.50.0.tgz#ad8f1ad88ae0096f548c9cdf60da9b92832db96e"
   integrity sha512-iX1mgmGrXdANhhITbpp2QQM2fGehBse9LbTf0sidWK6yg/NE+uhV5dfU1g6EYPlcReYmkE9QLPq/2irKAmtS9w==
 
-"@typescript-eslint/types@^8.2.0":
-  version "8.57.1"
-  resolved "https://registry.yarnpkg.com/@typescript-eslint/types/-/types-8.57.1.tgz#54b27a8a25a7b45b4f978c3f8e00c4c78f11142c"
-  integrity sha512-S29BOBPJSFUiblEl6RzPPjJt6w25A6XsBqRVDt53tA/tlL8q7ceQNZHTjPeONt/3S7KRI4quk+yP9jK2WjBiPQ==
-
 "@typescript-eslint/typescript-estree@^8.23.0":
   version "8.50.0"
   resolved "https://registry.yarnpkg.com/@typescript-eslint/typescript-estree/-/typescript-estree-8.50.0.tgz#2871d36617f81a127db905fa91b16d1a0251411b"
@@ -4506,7 +4501,7 @@ dettle@^1.0.5:
   resolved "https://registry.yarnpkg.com/dettle/-/dettle-1.0.5.tgz#ed3a526012b2faf0ec0f0f907929019a78091445"
   integrity sha512-ZVyjhAJ7sCe1PNXEGveObOH9AC8QvMga3HJIghHawtG7mE4K5pW9nz/vDGAr/U7a3LWgdOzEE7ac9MURnyfaTA==
 
-devalue@^5.6.3:
+devalue@^5.6.3, devalue@^5.8.1:
   version "5.8.1"
   resolved "https://registry.yarnpkg.com/devalue/-/devalue-5.8.1.tgz#f27290d3a324e2eb20c2714369b01b8ec4de4c61"
   integrity sha512-4CXDYRBGqN+57wVJkuXBYmpAVUSg3L6JAQa/DFqm238G73E1wuyc/JhGQJzN7vUf/CMphYau2zXbfWzDR5aTEw==
@@ -4919,13 +4914,12 @@ esprima@^4.0.1:
   resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
   integrity sha512-eGuFFw7Upda+g4p+QHvnW0RyTX/SVeJBDM/gCtMARO0cLuT2HcEKnTPvhjV6aGeqrCB/sbNop0Kszm0jsaWU4A==
 
-esrap@^2.2.2:
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/esrap/-/esrap-2.2.4.tgz#3bbcf02a86333b332fac1e00653594048e9dafc5"
-  integrity sha512-suICpxAmZ9A8bzJjEl/+rLJiDKC0X4gYWUxT6URAWBLvlXmtbZd5ySMu/N2ZGEtMCAmflUDPSehrP9BQcsGcSg==
+esrap@^2.2.4:
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/esrap/-/esrap-2.2.9.tgz#97b7939015dccfb8c00b0d3e1a2c8735ba46bac9"
+  integrity sha512-4KijP+NxCWthMCUC3qHbE6n4vCjqgJS1uAYKhuT/GWfFTf1Qyive2TgOjep+gzbSzRfnNyaN/UU9YmdOt8Eg0A==
   dependencies:
     "@jridgewell/sourcemap-codec" "^1.4.15"
-    "@typescript-eslint/types" "^8.2.0"
 
 estraverse@^5.2.0:
   version "5.3.0"
@@ -8942,10 +8936,10 @@ svelte2tsx@^0.7.45:
     dedent-js "^1.0.1"
     scule "^1.3.0"
 
-svelte@^5.53.5:
-  version "5.53.5"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.53.5.tgz#9472539a0152d5e02e2c933cb8eb9918d71b21de"
-  integrity sha512-YkqERnF05g8KLdDZwZrF8/i1eSbj6Eoat8Jjr2IfruZz9StLuBqo8sfCSzjosNKd+ZrQ8DkKZDjpO5y3ht1Pow==
+svelte@^5.55.7:
+  version "5.55.7"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-5.55.7.tgz#04d19e5d4e8e5b6afd7e648c30ab434bb20bfc86"
+  integrity sha512-ymI5ykLPwIHW839E053FQbI1G+jnRFJEw3Kv5Y4njixVWywQBx+NUFpkkKyk5LIb36Fg9DVXSYpqiGekLD0hyw==
   dependencies:
     "@jridgewell/remapping" "^2.3.4"
     "@jridgewell/sourcemap-codec" "^1.5.0"
@@ -8956,9 +8950,9 @@ svelte@^5.53.5:
     aria-query "5.3.1"
     axobject-query "^4.1.0"
     clsx "^2.1.1"
-    devalue "^5.6.3"
+    devalue "^5.8.1"
     esm-env "^1.2.1"
-    esrap "^2.2.2"
+    esrap "^2.2.4"
     is-reference "^3.0.3"
     locate-character "^3.0.0"
     magic-string "^0.30.11"
